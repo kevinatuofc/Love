@@ -9,7 +9,7 @@
 			src: url('digital-7_mono.ttf') format("truetype");
 		}
 	</style>
-	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<link href="css/default_dev.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/garden.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
@@ -19,58 +19,89 @@
 	<div id="mainDiv">
 		<div id="content">
 			<div id="code">
-				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* We are both Fudan SSers and programmers,</span><br />
-				<span class="space"/><span class="comments">* so I write some code to celebrate our 1st anniversary.</span><br />
+				<span class="space"/><span class="comments">/* This is the page I wrote to express how lucky I am.</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
-				Boy i = <span class="keyword">new</span> Boy(<span class="string">"hackerzhou"</span>);<br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"MaryNee"</span>);<br />
-				<span class="comments">// Nov 2, 2010, I told you I love you. </span><br />
-				i.love(u);<br />
-				<span class="comments">// Luckily, you accepted and became my girlfriend eversince.</span><br />
-				u.accepted();<br />
+				Boy i = <span class="keyword">new</span> Boy(<span class="string">"Junji"</span>)<br />
+				Girl u = <span class="keyword">new</span> Girl(<span class="string">"Lilian"</span>)<br />
+				we = i + u <br />
+				<span class="comments">// Jan 25 2014. We met during the UTCSSA Spring Gala. </span> <br />
+				i.meet(u)<br />
+				i.say("Do we know each other? You look so familiar") <br />
+				u.think("Who's this guy? I don't know you")<br />
+				u.smile("No we don't")<br />
+				i.feel("Embarrassed")<br />
+				u.smile()<br />
+				i.attractedBy(u)<br />				
+				<span class="comments">// For the whole night, we talked. We laughed.</span><br />
+				while(gala.on()):<br />				
+				<span class="indent1">we.talk("blabla")<br /> </span>
+				<span class="indent1">we.ignored(others)<br /></span>
+				<span class="comments">// Two days later, I asked you out. </span><br />
+				i.ask(u)<br />				
+				u.accept()<br />				
+				we.startDating("2014-01-27")<br />				
 				<span class="comments">// Since then, I miss u every day.</span><br />
-				i.miss(u);<br />
-				<span class="comments">// And take care of u and our love.</span><br />
-				i.takeCareOf(u);<br />
-				<span class="comments">// You say that you won't be so easy to marry me.</span><br />
-				<span class="comments">// So I keep waiting and I have confidence that you will.</span><br />
-				<span class="keyword">boolean</span> isHesitate = <span class="keyword">true</span>;<br />
-				<span class="keyword">while</span> (isHesitate) {<br />
-				<span class="placeholder"/>i.waitFor(u);<br />
-				<span class="placeholder"/><span class="comments">// I think it is an important decision</span><br />
-				<span class="placeholder"/><span class="comments">// and you should think it over.</span><br />
-				<span class="placeholder"/>isHesitate = u.thinkOver();<br />
-				}<br />
-				<span class="comments">// After a romantic wedding, we will live happily ever after.</span><br />
-				i.marry(u);<br />
-				i.liveHappilyWith(u);<br />
+				i.miss(u)<br />
+
+				<span class="comments">// I asked you to be my girl.</span><br />
+				i.ask(u)<br />				
+				hesitate=true<br />								
+				while(hesitate):<br />				
+<span class="indent1"> 
+				i.tryHarder()<br /> </span>				
+<span class="indent1"> 				hesitate=true <span class="comments"> </span> // Hesitate still.</span><br />
+<span class="indent1"> 				if u.feel(i.getHeart()): 			<br />			</span>
+				<span class="indent2"> hesitate=false<br />				
+				  </span>
+				<span class="comments">// We cared for each other.</span><br />
+				u.cookFor(i)<br />
+				i.gainPounds()<br />				
+
+				foreach bad_joke in i.told():<br />
+				     u.laugh()<br />
+				
+				<span class="comments">// We also did lots of other stuffs together.</span><br />
+				movies={...}   <span class="comments">// 50+ movies.</span><br />
+				foreach movie in movies:<br />
+
+<span class="indent1"> 				    we.wentTo("Eaton Centre")<br /> </span>
+<span class="indent1">  we.watch(movie)<br /> </span>
+<span class="indent1">if u.cry():<br /> </span>
+<span class="indent2"> 				       i.pass("Tissue")<br /> </span>
+
+				Places={"Paris", "Nice", "Monaco", "Barcelona", "London...ON"}<br />
+				foreach place in Places:<br />
+				<span class="indent1">we.travel()<br /> </span>
+				<span class="indent1">we.experience()<br /> </span>
+				
 			</div>
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Minyue, I have fallen in love with you for
-						<div id="elapseClock"></div>
-					</div>
+						Since we met, <br />
+						<div id="elapseClock"></div>	
+	
+					have gone by. <br />
+</div>
 					<div id="loveu">
-						Love u forever and ever.<br/>
-						<div class="signature">- hackerzhou</div>
+						 
+					  I'm still the luckiest guy since then. <br/>
+						<div class="signature">- Junji</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="copyright">
-			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
-			Copyright © 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011
+			Powered by <a href='http://hackerzhou.me'>hackerzhou.me</a>			
 		</div>
 	</div>
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2010, 10, 2);
-		together.setHours(20);
+		together.setFullYear(2014, 1, 15);
+		together.setHours(19);
 		together.setMinutes(0);
 		together.setSeconds(0);
 		together.setMilliseconds(0);

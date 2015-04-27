@@ -39,6 +39,10 @@ body {
 #messages{
 	display: none;
 }
+#messages2{
+    display: none;
+	margin-left: 100px;
+}
 
 #elapseClock .digit{
 	font-family: "digit";
@@ -49,7 +53,7 @@ body {
 	padding: 5px;
 	font-size: 22px;
 	margin-top: 80px;
-	margin-right: 120px;
+	margin-right: 20px;
 	text-align: right;
 	display: none;
 }
@@ -92,6 +96,14 @@ body {
 
 #code .comments{
 	color: #3f7f5f;
+}
+
+#code .indent1{
+	margin-left:20px;
+}
+
+#code .indent2{
+	margin-left:20px;
 }
 
 #copyright{
