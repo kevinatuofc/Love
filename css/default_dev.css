@@ -38,11 +38,9 @@ body {
 
 #messages{
 	display: none;
+	margin-left: 20px;
 }
-#messages2{
-    display: none;
-	margin-left: 100px;
-}
+
 
 #elapseClock .digit{
 	font-family: "digit";
@@ -50,11 +48,12 @@ body {
 }
 
 #loveu{
-	padding: 5px;
+	padding: 1px;
 	font-size: 22px;
-	margin-top: 80px;
-	margin-right: 20px;
-	text-align: right;
+	margin-top: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
 	display: none;
 }
 
@@ -62,6 +61,7 @@ body {
 	margin-top: 10px;
 	font-size: 20px;
 	font-style: italic;
+	margin-left: 60px;
 }
 
 #clickSound{
@@ -70,8 +70,8 @@ body {
 
 #code {
 	float: left;
-	width: 440px;
-	height: 400px;
+	width: 480px;
+	height: 630px;
 	color: #333;
 	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
 	font-size: 12px;
